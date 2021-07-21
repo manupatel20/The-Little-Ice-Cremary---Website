@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+.cart{
+  margin-left: 1000px;
+  font-size: 20px;
+  margin-right: 140px;
+  padding: 10px;
+  color: linen;
+  background: rgb(2, 2, 2);
+  border-radius: 5px;
+  float: right;
+  margin-top: 20px;
+  border:2px solid black;
+}
+.cart:hover{
+  padding: 10px;
+  color: black;
+  background: white;
+  border:2px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.background_image{
+  background-image: url('../images/white-background.jpg');
+  /* background-color: rgb(132, 160, 148); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.font
+{
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 80px;
+  text-shadow: 5px 5px 10px rgb(231, 111, 111);
+}
+
+.background
+{
+  background-size: cover;
+  height: 100vh;
+}
+.describe{
+    float: left;
+}
+.describe h2{
+    font-size: 45px;
+    margin-left: 20px;
+    font-family: 'Bad Script';
+}
+.describe h3{
+  font-size: 30px;
+  margin-left: 30px;
+  font-family: 'Bad Script';
+  color: rgb(32, 24, 30);
+  font-weight: bolder;
+}
+.describe p{
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 25px;
+}
+
+.photo{
+    float: right;
+}
+
+.describe .button{
+  padding: 8px;
+  font-size: 20px;
+  background: transparent;
+  font-weight: bold;
+  margin-left: 80px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.describe .button:hover{
+  padding: 12px;
+  font-size: 20px;
+  background: black;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  color: white;
+}
