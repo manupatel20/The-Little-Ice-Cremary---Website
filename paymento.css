@@ -1,0 +1,78 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+body {
+    font-family: Arial;
+    font-size: 17px;
+    padding: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(Images/background-payment.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 800;
+    /* overflow-y: hidden; */
+    overflow: hidden;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  
+  
+  .container {
+    background-color: #f2f2f28a;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    height: 100%;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+  
+  input[type=text] {
+    width: 70%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  
+ 
+  span.price {
+    float: right;
+    color: rgb(0, 0, 0);
+  }
+
+  .btn{
+    margin-top: 25px;
+    margin-left: 600px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 8px;
+    background-color: black;
+    color: rgb(227, 227, 235);
+    font-weight: 400;
+}
+.btn:hover{
+    padding: 7px;
+    font-weight: bold;
+    
+}
+ 
+
+  
+

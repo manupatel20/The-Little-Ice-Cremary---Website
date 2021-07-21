@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin-bottom: 100px;
+    margin-top: 200px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body .alert-success span{
+    margin-top: 200px;
+    margin-left: 450px;
+    font-size: 30px;
+}
+body .alert-error span{
+    margin-top: 200px;
+    margin-left: 450px;
+    font-size: 30px;
+}

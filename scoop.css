@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+.cart{
+  margin-left: 1000px;
+  font-size: 20px;
+  margin-right: 140px;
+  padding: 10px;
+  color: linen;
+  background: rgb(2, 2, 2);
+  border-radius: 5px;
+  float: right;
+  margin-top: 20px;
+  border:2px solid black;
+}
+.cart:hover{
+  padding: 10px;
+  color: black;
+  background: white;
+  border:2px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.background_image{
+  background-image: url('./images/bgimage_scoop.jpg');
+  /*background-repeat: no-repeat; */
+  background-size: cover;
+  height: 1100px;
+
+
+
+}
+
+
+
+.font
+{
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 80px;
+  text-shadow: 5px 5px 10px rgb(231, 111, 111);
+}
+
+
+.main-content-1
+{
+   margin-left: 80px;
+   display: inline-block;
+   background-size: 50px;
+   margin-top: 70px;
+   position: absolute;
+   padding-top: 10px;
+   
+}
+.main-content-1:hover{
+    cursor: pointer;
+    padding: 10px; 
+    background-color: rgb(33, 42, 44);
+    transition: all .3s ease;
+    border-radius: 10px;
+  
+  }
+
+.main-content-1 h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #af5b0dc0;
+}
+.main-content-2
+{
+   margin-left: 510px;
+   display: inline-block;
+   background-size: 50px;
+   margin-top: 70px;
+   position: absolute;
+   padding-top: 10px;
+   color:rgb(202, 61, 61);
+  
+}
+.main-content-2:hover{
+    cursor: pointer;
+    padding: 10px; 
+    background-color: rgb(33, 42, 44);
+    transition: all .3s ease;
+    border-radius: 10px;
+  
+  }
+
+.main-content-2 h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #F9AB05;
+    text-align:center;
+}
+
+.main-content-3
+{
+   margin-left: 940px;
+   display: inline-block;
+   background-size: 50px;
+   margin-top: 70px;
+   position: absolute;
+   padding-top: 10px;
+}
+.main-content-3:hover{
+    cursor: pointer;
+    padding: 10px; 
+    background-color: rgb(33, 42, 44);
+    transition: all .3s ease;
+    border-radius: 10px;
+  
+  }
+
+.main-content-3 h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: brown;
+}
+
+.main-content-4
+{
+   margin-left: 80px;
+   display: inline-block;
+   background-size: 50px;
+   margin-top: 450px;
+   position: absolute;
+   padding-top: 10px;
+}
+.main-content-4:hover{
+    cursor: pointer;
+    padding: 10px; 
+    background-color: rgb(33, 42, 44);
+    transition: all .3s ease;
+    border-radius: 10px;
+  
+  }
+
+.main-content-4 h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #924b05;
+}
+
+.main-content-5
+{
+   margin-left: 510px;
+   display: inline-block;
+   background-size: 50px;
+   margin-top: 450px;
+   position: absolute;
+   padding-top: 10px;
+}
+.main-content-5:hover{
+    cursor: pointer;
+    padding: 10px; 
+    background-color: rgb(33, 42, 44);
+    transition: all .3s ease;
+    border-radius: 10px;
+  
+  }
+
+.main-content-5 h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #971bb6;
+}
+
+.main-content-6
+{
+   margin-left: 940px;
+   display: inline-block;
+   background-size: 50px;
+   margin-top: 450px;
+   position: absolute;
+   padding-top: 10px;
+}
+.main-content-6:hover{
+    cursor: pointer;
+    padding: 10px; 
+    background-color: rgb(33, 42, 44);
+    transition: all .3s ease;
+    border-radius: 10px;
+  
+  }
+
+.main-content-6 h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: darkorange;
+}

@@ -1,0 +1,81 @@
+body
+{
+    background-image: url("./Images/login_image.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color:rgb(3, 3, 36)
+}
+
+* {
+    
+    text-decoration: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 2000px;
+    color: black;
+    }
+    .signup {
+      
+    margin-left: 600px;
+    /* /margin-top: 20px;/ */
+    background-color: rgba(219, 193, 193, 0.719);
+    /* /background-color: linen;/ */
+    border-radius: 50px;
+    width: 600px;
+    padding-top: 30px;
+    
+    }
+    .signup .h1 {
+    text-align: center;
+    font-size: 40px;
+    }
+    .btn
+    {
+    text-align:center;
+    padding: 13px;
+    margin: auto;
+    background: black;
+    color: blanchedalmond;
+    border-radius: 10px;
+    border:3px solid black;
+    font-weight: 700;
+    }
+    .k {
+        width: 50%;
+        font-size: 22px;
+        padding: 5px;
+        margin: 10px;
+        border: 2px solid black;
+        border-radius: 15px;
+        }
+    .btn1
+    {
+        text-align: center;
+        font-size: 30px;
+    }
+    .btn:hover
+    {
+        cursor: pointer;
+        border:3px solid black;
+        background-color: white;
+        color:black;
+        font-weight: 800;
+    }
+   /* .cancel{
+       
+        text-align: center;
+        border:none;
+        margin-top:10px;
+        padding-bottom: 5%;
+        }
+*/
+.font
+{
+  font-family: 'Berkshire Swash', cursive;
+  margin-left: 550px;
+  font-size: 70px;
+  text-shadow: 3px 3px 7px pink;
+
+
+}
