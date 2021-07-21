@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+.background{
+    height: 100vh;
+    background-image: url('./images/97022219-bowl-with-ice-cream-with-three-different-scoops-of-white-yellow-red-colors-and-waffle-cone-chocolate.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    margin-top: 30px;
+    margin-left: 300px;
+    color: rgb(41, 14, 34);
+}
+
+.table
+{
+    text-align: center;
+    width: 70%;
+    border-collapse: collapse;
+    font-size: 22px;
+}
+
+.table .column{
+    padding: 30px;
+    color: black;
+}
+
+.table .column th{
+    padding: 20px;
+}
+
+
+
+.btn{
+    margin-top: 25px;
+    margin-left: 450px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 8px;
+    background-color: black;
+    color: rgb(227, 227, 235);
+    font-weight: 400;
+}
+.btn:hover{
+    padding: 7px;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.remove{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.remove:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+tr:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor:pointer;
+}

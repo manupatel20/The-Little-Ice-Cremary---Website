@@ -1,0 +1,149 @@
+.signin_button
+{  
+  font-family: 'calibri', cursive;
+  padding: 10px;
+  color: linen;
+  background: #000;
+  text-align: center;
+  margin-left: 1050px;
+  margin-top: 20px;
+}
+
+.signin_button a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signin_button :hover{
+  cursor: pointer;
+  padding: 5px;
+  background-color: beige;
+  color: rgb(20, 20, 20);
+  font-weight: bold;
+}
+
+
+
+.font
+{
+  font-family: 'Berkshire Swash', cursive;
+  margin-left: 500px;
+
+  font-size: 70px;
+  text-shadow: 5px 5px 10px white;
+
+
+}
+
+.background
+{
+  background : url(images/home.jpeg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  
+  
+}
+
+/* .img :hover{
+  cursor: pointer;
+  padding-left: 3px;
+  padding-right: 3px; 
+  padding-bottom: 3px;
+  padding-top: 3px;
+  transition: all .5s ease;
+
+
+} */
+
+.img1
+{
+  position: absolute;
+  left: 750px;
+  background-color: black;
+  top: 230px;
+}
+
+.img1:hover .overlay,
+.img2:hover .overlay,
+.img3:hover .overlay,
+.img4:hover .overlay,
+.img5:hover .overlay,
+.img6:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.img2
+{
+  position: absolute;
+  background-color: hsl(0, 3%, 8%);
+  top:230px;
+  left: 950px;
+ 
+}
+.img3
+{
+  position: absolute;
+ background-color: black;
+  top:230px;
+  left: 1150px;
+  
+
+}
+
+.img4
+{
+  position: absolute;
+ background-color: hsl(0, 3%, 8%);
+  left: 750px;
+  bottom: 60px;
+  
+
+}
+.img5
+{
+  position: absolute;
+  left: 950px;
+  bottom: 60px;
+  background-color: black;
+  
+
+}
+.img6
+{
+  position: absolute;
+ background-color: hsl(0, 3%, 8%);
+  left: 1150px;
+  bottom : 60px;
+  
+
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000000;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
